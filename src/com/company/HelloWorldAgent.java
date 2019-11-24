@@ -1,4 +1,5 @@
 package com.company;
+import com.company.car.CarFactory;
 import jade.core.Agent;
 import jade.core.behaviours.*;
 import jade.lang.acl.ACLMessage;
@@ -52,6 +53,10 @@ public class HelloWorldAgent extends Agent {
 
 
     protected void setup() {
+
+        CarFactory carFactory = new CarFactory();
+        System.out.println(carFactory.getCars());
+
         // Registration with the DF
         DFAgentDescription dfd = new DFAgentDescription();
         ServiceDescription sd = new ServiceDescription();

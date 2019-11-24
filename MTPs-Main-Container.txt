@@ -1,1 +1,1 @@
-http://eduroam9.uz.zgora.pl:7778/acc
+http://eduroam4.uz.zgora.pl:7778/acc
